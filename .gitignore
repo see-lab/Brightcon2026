@@ -5,3 +5,6 @@ ENV/
 
 # virtualenv metadata
 pyvenv.cfg
+
+# jupyter
+.ipynb_checkpoints/
