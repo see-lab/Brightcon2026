@@ -21,6 +21,8 @@
 	```bash
 	jupyter notebook Demonstration.ipynb
 	```
+# Debug Notes
+- If fmLCA pip install runs into issues, try to install package on the conda env manually: [v1.0.1](https://test.pypi.org/project/lca-fmu/)
 
 # Presentation Details
 ## Abstract
