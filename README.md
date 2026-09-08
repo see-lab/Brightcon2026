@@ -1,7 +1,10 @@
 # Brightcon 2026 Presentation Files 
 **Title:** Co-Simulating Brightway Life Cycle Assessments with the Functional Mockup Interface
+
 **Authors:** Kathryn Hinkelman, Anastasija Mensikova
+
 **Email:** kathryn.hinkelman{at}uvm{dot}edu
+
 **Presentation Date:** 24 September 2026
 
 
