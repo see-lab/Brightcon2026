@@ -11,5 +11,4 @@ dependencies:
   - nb_conda_kernels
   - pip>=24.2
   - pip:
-    - --index-url https://pypi.org/simple
-    - lca-fmu==1.0.1
+    - fmlca

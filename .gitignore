@@ -1,3 +1,4 @@
+# Virtual environments
 .venv/
 venv/
 env/
@@ -8,3 +9,6 @@ pyvenv.cfg
 
 # jupyter
 .ipynb_checkpoints/
+
+# Results 
+results/
