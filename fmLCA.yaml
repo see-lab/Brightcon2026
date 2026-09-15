@@ -11,4 +11,4 @@ dependencies:
   - nb_conda_kernels=2.5.*
   - pip=24.2.*
   - pip:
-      - fmlca=0.0.1
+      - fmlca=1.0.0
