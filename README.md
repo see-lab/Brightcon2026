@@ -3,7 +3,7 @@
 
 **Authors:** Kathryn Hinkelman, Anastasija Mensikova
 
-**Email:** kathryn.hinkelman{at}uvm{dot}edu
+**Email:** kathryn{dot}hinkelman{at}uvm{dot}edu
 
 **Presentation Date:** 24 September 2026
 
@@ -11,7 +11,7 @@
 # Quick Start
 1. Create the conda environment:
 	```bash
-	conda env create -f fmLCA.yaml
+	conda env create -n fmLCA -f environment-fmLCA.yaml
 	```
 2. Activate it:
 	```bash
@@ -26,7 +26,7 @@
 ## Abstract
 Modern sustainability assessments increasingly require dynamic integration of life cycle assessment (LCA) results with engineering simulations for systems optimization, real-time decision support, and multi-physics modeling. While Brightway-based LCA makes this integration more feasible than end-to-end software stacks (e.g., SimaPro, OpenLCA), coupling with external simulation environments remains challenging due to incompatible interfaces and computational overhead. The Functional Mockup Interface (FMI) standard offers a solution by enabling seamless co-simulation between heterogeneous modeling tools.
 
-This presentation demonstrates a complete workflow for converting Brightway2 LCA models into standardized FMI 2.0-compliant Functional Mockup Units (FMUs). Using Python, Brightway2, and the pythonfmu library, we showcase automated extraction of emission factors from ecoinvent 3.12 databases for both climate change impacts (IPCC 2021 GWP100) and endpoint damages (ReCiPe 2016). The workflow transforms JSON inventories into production-ready FMUs with standardized input/output interfaces (energy consumption as input and single-score environmental impacts as output). These FMUs are ready for co-simulation with dynamic multi-domain system simulation tools, such as Modelica. A live demonstration includes FMU generation for various energy storage systems (e.g., sand battery), followed by validation. All code, data, and FMUs are provided as reproducible examples with complete automation scripts.
+This presentation demonstrates a complete workflow for converting Brightway2 LCA models into standardized FMI 2.0-compliant Functional Mockup Units (FMUs). Using Python, Brightway2, and the pythonfmu library, we showcase automated extraction of emission factors from ecoinvent 3.12 databases for both climate change impacts (IPCC 2021 GWP100) and endpoint damages (ReCiPe 2016). The workflow transforms JSON inventories into production-ready FMUs with standardized input/output interfaces (energy consumption as input and single-score environmental impacts as output). These FMUs are ready for co-simulation with dynamic multi-domain system simulation tools, such as Modelica. A live demonstration includes FMU generation for a grid-tied PV system, followed by validation. All code, data, and FMUs are provided as reproducible examples with complete automation scripts.
 
 With a focus on advancing the sustainable design and operation of energy systems, this presentation advocates for fully open-source, reproducible tools that democratize access to advanced LCA-simulation coupling. By standardizing LCA interfaces through FMI compliance, we foster cross-platform collaboration between LCA practitioners and model-based systems engineers, advancing transparent and interoperable sustainability assessment workflows.
 

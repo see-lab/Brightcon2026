@@ -12,3 +12,6 @@ pyvenv.cfg
 
 # Results 
 results/
+
+# Archive
+fmu/archive/

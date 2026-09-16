@@ -1,3 +1,4 @@
+# display-name: fmLCA Co-Simulation
 name: fmLCA
 channels:
   - conda-forge
@@ -11,4 +12,4 @@ dependencies:
   - nb_conda_kernels=2.5.*
   - pip=24.2.*
   - pip:
-      - fmlca=1.0.0
+      - fmlca==1.0.0
