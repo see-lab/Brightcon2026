@@ -4,9 +4,10 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - fmpy
+  - fmpy=0.3.29
   - numpy=1.26.*
   - pandas=2.2.*
   - matplotlib=3.9.*
+  - pip
   - pip:
       - fmlca==1.0.0

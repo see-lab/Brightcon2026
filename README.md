@@ -11,11 +11,11 @@
 # Quick Start
 1. Create the conda environment:
 	```bash
-	conda env create -n fmLCA -f environment-fmlca.yaml
+	conda env create -n fmlca -f environment-fmlca.yaml
 	```
 2. Activate it:
 	```bash
-	conda activate fmLCA
+	conda activate fmlca
 	```
 3. Run the demo notebook:
 	```bash
