@@ -8,6 +8,7 @@ dependencies:
   - pandas=2.2.*
   - matplotlib=3.9.*
   - ipykernel
+  - notebook
   - pip
   - pip:
       - fmpy==0.3.29

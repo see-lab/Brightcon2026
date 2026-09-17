@@ -9,11 +9,14 @@
 
 
 # Quick Start
-1. Create the conda environment:
+1. Create the conda environment and add it to the jupyter kernel:
 	```bash
 	conda env create -n fmlca -f environment-fmlca.yml
+    python -m ipykernel install --user --name fmlca --display-name "Python (fmlca)"
 	```
-2. Activate it:
+	Close and restart the terminal. 
+	
+2. Activate the conda environment:
 	```bash
 	conda activate fmlca
 	```
