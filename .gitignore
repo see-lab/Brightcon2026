@@ -6,12 +6,14 @@ ENV/
 
 # virtualenv metadata
 pyvenv.cfg
+.vscode/
 
 # jupyter
 .ipynb_checkpoints/
 
-# Results 
+# Results and outputs
 results/
+out/
 
 # Archive
 fmu/archive/
