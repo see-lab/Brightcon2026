@@ -1,13 +1,14 @@
-# display-name: fmlca
-name: fmlca
+# display-name: fmlca-jupyter
+name: fmlca-jupyter
 channels:
   - conda-forge
 dependencies:
   - python=3.12
-  - fmpy=0.3.29
-  - numpy=1.26.*
+  - numpy=2.*
   - pandas=2.2.*
   - matplotlib=3.9.*
+  - ipykernel
   - pip
   - pip:
+      - fmpy==0.3.29
       - fmlca==1.0.0
