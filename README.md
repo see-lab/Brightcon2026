@@ -11,7 +11,7 @@
 # Quick Start
 1. Create the conda environment:
 	```bash
-	conda env create -n fmlca -f environment-fmlca.yaml
+	conda env create -n fmlca -f environment-fmlca.yml
 	```
 2. Activate it:
 	```bash
